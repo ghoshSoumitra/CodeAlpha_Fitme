@@ -1,1 +1,1 @@
-Hosted on---https://github.com/ghoshSoumitra/CodeAlpha_Fitme
+Hosted on---https://ghoshsoumitra.github.io/CodeAlpha_Fitme/
