@@ -14,7 +14,7 @@ function showSlide(index) {
 }
 
 function nextSlide() {
-    console.log('Next slide called');
+    console.log('hii');
     currentIndex = (currentIndex + 1) % opinions.length;
   
     showSlide(currentIndex);
