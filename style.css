@@ -785,5 +785,35 @@ textarea {
     margin-top: -8.3rem !important;
 }
 
+/* footer section */
+
+.footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: #222;
+    padding: 20px; 
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: emoji;
+}
+
+.contactlist {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; 
+}
+
+.contactlist img {
+    height: 3vh;
+    width: 3vw;
+    margin-right: 2vw;
+}
+.footer-custom-mt{
+    margin-top: -5.3rem !important;
+}
 
 
