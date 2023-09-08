@@ -120,7 +120,15 @@ h3 {
 .navbar-nav .nav-link:hover {
     color: burlywood;
 }
-
+.navbar-toggler[aria-expanded="true"] + .collapse.navbar-collapse {
+    background-color: #22222282;
+    box-shadow: 4px 4px 8px wheat;
+    padding-left: 20px;
+    
+}
+.navbar-toggler[aria-expanded="true"] + .collapse.navbar-collapse .navbar-nav .nav-link {
+    color: #f9eeee !important; 
+}
 /* about section */
 .about {
             background: url('https://wallpaperaccess.com/full/1896982.jpg');
