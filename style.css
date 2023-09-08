@@ -1,0 +1,781 @@
+/* Navbar and home section */
+header {
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/1078069.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -2vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 2vh;
+    height: 15vh;
+}
+
+.anchor {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: white;
+}
+
+.anchor a:hover {
+    color: burlywood;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img img {
+    max-height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 2.2rem;
+    text-shadow: 3px 3px 7px gold;
+    margin-top: -1vh;
+    color: #d9440d;
+    font-family: emoji;
+}
+
+.join {
+    text-align: center;
+    margin: 25vh auto;
+}
+
+.join h2 {
+    color: #d9440d;
+    font-size: 5rem;
+    
+    font-family: emoji;
+}
+
+.join h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: -1vh;
+    font-family: emoji;
+}
+
+.join button {
+    font-size: 1rem;
+    margin-top: 1vh;
+    background-color: #d9440d;
+    font-family: emoji;
+
+    height: 8vh;
+    width: auto;
+    background-color: #d9440d;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar {
+    background: transparent;
+    margin-top: 2vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    margin-top: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-family: emoji;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: burlywood;
+}
+
+/* about section */
+.about {
+            background: url('https://wallpaperaccess.com/full/1896982.jpg');
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .about img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            color: white;
+            padding: 2rem;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            color: #ea4c23;
+            font-family: emoji;
+        }
+
+        .content p {
+            text-align: justify;
+            font-family: emoji;
+        }
+
+        .time {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .time img {
+            max-width: 30px;
+            height: auto;
+            margin-right: 1rem;
+            border-radius: 50%;
+        }
+
+        .time h4 {
+            font-size: 1.2rem;
+            color: #ea4c23;
+        }
+@media (max-width: 800px) {
+ 
+    .about {
+        height: auto;
+        padding-bottom: 4rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://wallpaperaccess.com/full/1896982.jpg');
+    }
+
+    .content {
+        padding: 1rem;
+    }
+}
+
+/* achievement section */
+
+.achievement {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cutewallpaper.org/21/gym-wallpaper-hd/Fitness-4K-HD-Wallpapers-Top-Free-Fitness-4K-HD-.jpg');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.achievement img {
+    max-width: 100%;
+    height: auto;
+   
+    overflow: hidden;
+}
+
+.achivecontent {
+    margin-top: 5%;
+    width: 50%; 
+  
+   
+}
+
+.achivecontent h2 {
+    font-size: 2.5rem;
+    color: #ea4c23;
+    font-family: emoji;
+}
+
+.achivecontent p {
+    width: 80%; 
+    text-align: justify;
+    font-family: emoji;
+}
+
+.achivecontent button {
+   
+    background-color: #d9440d;
+    color: white;
+    font-size: 1.3rem;
+    font-family: emoji;
+    border: none;
+    border-radius: 0
+}
+
+.user img {
+    max-width: 80px; 
+    height: auto;
+    border-radius: 50%;
+}
+
+.user h4 {
+    margin-left: 19%;
+    margin-top: 12%;
+}
+
+.user p {
+    margin-top: -10%;
+}
+
+.ach {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5%;
+}
+.achieve {
+    width: 50%;
+}
+.row2{
+    justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+   
+    .ach {
+        flex-direction: column; 
+    }
+    .achivecontent {
+        width: 100%; 
+     
+    }
+    .achivecontent p {
+        width: 95%;
+        text-align: justify;
+    }
+    .achivecontent h2 {
+        font-size: 1.5rem;
+    }
+    .achieve {
+        width: 100%; 
+    }
+    .user img {
+        max-width: 40px; 
+        height: auto;
+        border-radius: 50%;
+    }
+    .achievement{
+        height: auto;
+    }
+    .user h4 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .user p {
+        margin-top: 0;
+    }
+    .ml-5{
+        margin-left: 0;
+    }
+   
+}
+
+
+/* Service Section */
+.service {
+    background: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servicecontent {
+    color: white;
+    text-align: center;
+}
+
+.servicecontent h2 {
+    color: #ea4c23;
+    font-size: 2rem;
+    font-family: emoji;
+}
+
+.servicecontent p {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: emoji;
+}
+
+.servicecomponent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.component {
+    background-color: rgb(34, 34, 34);
+    width: 100%; 
+    margin: 1%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.component h3 {
+    color: #ea4c23;
+    text-shadow: none;
+    font-family: emoji;
+}
+
+.component p {
+    font-size: 1.2rem;
+    font-family: emoji;
+}
+
+.component img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin-bottom: 15px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.servicecomponent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+   
+    .component {
+        width: 100%;
+    }
+
+}
+
+/* Price section */
+
+.pricing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpapercave.com/wp/wp2639543.jpg');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.pricing img {
+    max-width: 100%;
+}
+
+.pricing h2 {
+    font-size: 3rem;
+    color: #ea4c23;
+    text-align: center;
+    font-family: emoji;
+}
+
+.price {
+    background-color: #222;
+    text-align: center;
+    box-shadow: 4px 4px 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.price h3 {
+    color: white;
+    text-shadow: none;
+    font-family: emoji;
+}
+
+.price p {
+    color: white;
+    padding-bottom: 1vh;
+    font-family: emoji;
+}
+
+.pricing-round h4 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: emoji;
+}
+
+.pricing-round {
+    background-color: #ea4c23;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    height: 150px;
+    width: 150px;
+    margin-top: -25%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.pricecomponent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.price button {
+    background-color: #d9440d;
+    color: white;
+    font-size: 1.3rem;
+    font-family: emoji;
+    border: none;
+    border-radius: 0
+}
+@media (max-width: 768px) {
+    .pricing-round {
+        margin-top: 0;
+    }
+}
+
+/* Mmebers section */
+.members {
+    background-color: black;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.members h2 {
+    color: #ea4c23;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: emoji;
+}
+
+.opinions {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 8vh;
+}
+
+.opinion {
+    height: auto;
+    width: 60%;
+    color: white;
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px gray;
+    display: none;
+}
+
+
+
+.member {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.quote {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    color: white;
+    text-shadow: none;
+}
+
+
+.opinion.active-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+/* nutrition section */
+
+
+.nutrition {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpapercave.com/wp/wp2483009.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+.left h2 {
+    color: #ea4c23;
+    font-size: 2.5rem;
+    font-family: emoji;
+}
+
+.left p {
+    width: 100%;
+    max-width: 80%;
+    text-align: justify;
+    font-family: emoji;
+}
+
+.left {
+    color: white;
+    margin-top: 5%;
+    padding-left: 50px;
+}
+
+.left button {
+    height: 8vh;
+    width: 30%; 
+    background-color: #d9440d;
+    color: white;
+    font-size: 1.3rem;
+    font-family: emoji;
+    border: none;
+    border-radius: 0
+}
+
+.right {
+    text-align: center;
+}
+
+.image-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.image-slider img {
+    width: 100%;
+    max-width: 40%; 
+    display: none;
+    margin-top: 20%;
+    transition: transform 1s ease; 
+    transform: translateX(0);
+}
+
+
+.image-slider img:first-child {
+    display: block;
+}
+
+.leftright {
+    display: flex;
+}
+.custom-mt{
+    margin-top: -1.3rem !important;
+}
+
+/* Trainers Section */
+
+.trainers {
+    background-color: black;
+    padding: 10vh 0;
+}
+
+.trainers h2 {
+    color: #ea4c23;
+    font-size: 2.5rem;
+}
+
+.trainerdesc {
+    text-align: center;
+    color: white;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.trainer h3 {
+    color: #ea4c23;
+    font-size: 1.5rem;
+    text-shadow: none;
+    margin-top: 1vh;
+    font-family: emoji;
+}
+
+.trainer p {
+    color: white;
+    font-family: emoji;
+}
+
+.trainer img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.tarinername {
+    
+    margin-top: 1vh;
+    z-index: 0;
+    text-align: center;
+    padding: 4px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* contact Section */
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.pixelstalk.net/wp-content/uploads/images6/Cool-Fitness-Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px; 
+    height: auto;
+    width: 100%;
+}
+
+.contact h2 {
+    color: #ea4c23;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px; 
+    font-family: emoji;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; 
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: emoji;
+}
+
+label {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+input,
+textarea {
+    height: 8vh;
+    background-color: #222;
+    color: white; 
+    font-family: emoji;
+    width: 100%;
+}
+
+.leftcontact button {
+    height: 8vh;
+    background-color: #d9440d;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1%;
+    width: 100%; 
+    font-family: emoji;
+    border: none;
+    border-radius: 0
+}
+
+.leftcontact {
+    margin-top: 2%;
+}
+
+.contactus {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+}
+
+.rightcontact {
+    width: 40%; 
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rightcontact img {
+    height: 10vh;
+    width: auto;
+    max-width: 80%; 
+}
+
+.contactinfo {
+    display: flex;
+    color: white;
+    margin-bottom: 3%;
+    justify-content: flex-start; 
+}
+
+.contactinfo h4 {
+    font-size: 1.5rem;
+    margin-left: 10px; 
+    font-family: emoji;
+}
+
+textarea {
+    height: 10vh;
+    width: 100%; 
+    resize: none;
+}
+.form{
+    width: 40%;
+}
+.btn2{
+    background-color: #ea4c23 !important;
+    font-family: emoji;
+    border: none !important;
+    border-radius: 0 !important
+}
+.contact-devider{
+    margin-top: -8.3rem !important;
+}
+
+
+
